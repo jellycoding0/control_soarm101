@@ -1,0 +1,23 @@
+# Public sharing rule
+# Only these two code folders are allowed to be tracked for students.
+*
+!.gitignore
+!code_soram/
+!code_soram/**
+!code_simulation/
+!code_simulation/**
+
+# Never share secrets or machine-specific files, even inside allowed folders.
+**/.env
+**/.env.*
+**/*.env
+**/*.pem
+**/*.key
+**/secrets.*
+**/*secret*
+**/*token*
+
+# Python/runtime generated files
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
