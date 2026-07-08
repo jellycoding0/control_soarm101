@@ -45,7 +45,8 @@ def force_permanent_id(old_id, new_id):
     
     print("✅ 영구 변경 명령 전송 완료!")
 
-# 현재 서보가 다시 1번으로 돌아갔으므로 old_id=1, new_id=2로 설정
-force_permanent_id(1, 3)
+# (모터 현재 ID, 변경하고자 하는 ID) 
+# # 모터 기본 상태는 1임  
+force_permanent_id(1, 4) 
 ser.close()
 
