@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "robot": "SO-ARM101 Pro",
+  "pose_name": "home_vertical",
+  "center_pos": 2048,
+  "deg_per_step": 0.087890625,
+  "servo_ids": [1, 2, 3, 4, 5],
+  "joint_offsets_deg": [26.630859, 88.417969, 135.263672, -2.109375, -31.552734],
+  "joints": [
+    {"id": 1, "present_pos": 2351, "offset_step": 303, "offset_deg": 26.630859},
+    {"id": 2, "present_pos": 3054, "offset_step": 1006, "offset_deg": 88.417969},
+    {"id": 3, "present_pos": 3587, "offset_step": 1539, "offset_deg": 135.263672},
+    {"id": 4, "present_pos": 2024, "offset_step": -24, "offset_deg": -2.109375},
+    {"id": 5, "present_pos": 1689, "offset_step": -359, "offset_deg": -31.552734}
+  ]
+}

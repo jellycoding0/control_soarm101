@@ -1,0 +1,5 @@
+{
+  "port": "COM11",
+  "baudrate": 1000000,
+  "joint_directions": [-1, 1, 1, 1, -1]
+}

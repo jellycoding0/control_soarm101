@@ -6,6 +6,8 @@
 !code_soram/**
 !code_simulation/
 !code_simulation/**
+!config/
+!config/**
 
 # Never share secrets or machine-specific files, even inside allowed folders.
 **/.env
@@ -21,3 +23,7 @@
 **/__pycache__/
 **/*.py[cod]
 **/.pytest_cache/
+
+
+*.md
+*.pdf
